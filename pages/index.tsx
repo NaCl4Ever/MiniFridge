@@ -20,7 +20,16 @@ export default function Home() {
   rel="stylesheet"
 />
       </Head>
-      <DynamicComponentWithNoSSR/>
+      <DynamicComponentWithNoSSR
+      data={[
+        {
+          name: 'Example',
+          longitude: -122.45,
+          latitude: 37.78
+        }
+      ]}
+      
+      />
    </React.Fragment>
   )
 }
