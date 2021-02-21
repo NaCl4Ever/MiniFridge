@@ -6,7 +6,7 @@ import { Menu } from '@material-ui/icons';
 export const Header:FC = () => {
     return (
         <AppBar>
-        <Toolbar>
+        <Toolbar variant='dense'>
             <IconButton color="inherit" aria-label="menu">
             <Menu />
             </IconButton>
